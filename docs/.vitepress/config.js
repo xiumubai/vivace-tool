@@ -2,7 +2,7 @@
  * @Author: 朽木白
  * @Date: 2022-09-03 01:09:44
  * @LastEditors: xxx@xxx.com
- * @LastEditTime: 2022-09-30 15:20:16
+ * @LastEditTime: 2022-09-30 16:44:04
  * @Description:
  */
 
@@ -41,7 +41,22 @@ module.exports = {
           text: '函数集合',
           items: [
             { text: "sum", link: '/utils/sum' },
-            { text: "uniqueArr", link: '/utils/uniqueArr' }
+            { text: "uniqueArr", link: '/utils/uniqueArr' },
+            { text: "getParameters", link: '/utils/getParameters' },
+            { text: "isEmpty", link: '/utils/isEmpty' },
+            { text: "reverse", link: '/utils/reverse' },
+            { text: "randomHexColor", link: '/utils/randomHexColor' },
+            { text: "isTabActive", link: '/utils/isTabActive' },
+            { text: "elementIsInFocus", link: '/utils/elementIsInFocus' },
+            { text: "judgeDeviceType", link: '/utils/judgeDeviceType' },
+            { text: "copyText", link: '/utils/copyText' },
+            { text: "getSelectedText", link: '/utils/getSelectedText' },
+            { text: "isWeekday", link: '/utils/isWeekday' },
+            { text: "fahrenheitToCelsius", link: '/utils/fahrenheitToCelsius' },
+            { text: "celsiusToFahrenheit", link: '/utils/celsiusToFahrenheit' },
+            { text: "dayDiff", link: '/utils/dayDiff' },
+            { text: "rgbToHex", link: '/utils/rgbToHex' },
+            { text: "average", link: '/utils/average' },
           ]
         }
       ]
