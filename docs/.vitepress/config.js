@@ -2,7 +2,7 @@
  * @Author: 朽木白
  * @Date: 2022-09-03 01:09:44
  * @LastEditors: xxx@xxx.com
- * @LastEditTime: 2022-09-30 14:03:28
+ * @LastEditTime: 2022-09-30 15:20:16
  * @Description:
  */
 
@@ -40,9 +40,8 @@ module.exports = {
         {
           text: '函数集合',
           items: [
-            {
-              text: "sum", link: '/utils/sum'
-            }
+            { text: "sum", link: '/utils/sum' },
+            { text: "uniqueArr", link: '/utils/uniqueArr' }
           ]
         }
       ]
