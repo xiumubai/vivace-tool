@@ -1,8 +1,8 @@
 /*
  * @Author: 朽木白
  * @Date: 2022-09-03 01:09:44
- * @LastEditors: xxx@xxx.com
- * @LastEditTime: 2022-09-30 16:44:04
+ * @LastEditors: 1547702880@@qq.com
+ * @LastEditTime: 2022-09-30 19:08:17
  * @Description:
  */
 
@@ -57,6 +57,7 @@ module.exports = {
             { text: "dayDiff", link: '/utils/dayDiff' },
             { text: "rgbToHex", link: '/utils/rgbToHex' },
             { text: "average", link: '/utils/average' },
+            { text: "trueTypeOf", link: '/utils/trueTypeOf' },
           ]
         }
       ]
