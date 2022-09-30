@@ -1,10 +1,10 @@
 {
-  "name": "vivacedemo",
+  "name": "vivace-tool",
   "version": "1.1.0",
   "description": "npm包规范示例",
-  "main": "dist/vivacedemo.umd.min.js",
-  "module": "dist/vivacedemo.esm.js",
-  "unpkg": "dist/vivacedemo.js",
+  "main": "dist/vivaceTool.umd.min.js",
+  "module": "dist/vivaceTool.esm.js",
+  "unpkg": "dist/vivaceTool.js",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -39,24 +39,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/fe-test1/git-demo.git"
+    "url": "https://github.com/xiumubai/vivace-tool.git"
   },
+  "bugs": {
+    "url": "https://github.com/xiumubai/vivace-tool/issues"
+  },
+  "homepage": "https://github.com/xiumubai/vivace-tool.git",
   "author": "xiumubai",
   "license": "MIT",
-  "bugs": {
-    "url": "https://gitlab.com/fe-test1/git-demo/issues"
-  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-customizable"
     }
   },
   "files": [
-    "dist",
-    "examples",
-    "src"
+    "dist"
   ],
-  "homepage": "https://gitlab.com/fe-test1/git-demo#readme",
   "devDependencies": {
     "@babel/core": "^7.19.3",
     "@babel/eslint-parser": "^7.19.1",

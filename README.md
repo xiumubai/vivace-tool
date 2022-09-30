@@ -1,14 +1,59 @@
-本教程包含一下内容：
+<br>
 
-- 初始化项目，创建合理的目录结构
-- 设置基于编辑器的代码统一规范 .editorconfig [vscode的配置](https://link.juejin.cn?target=https%3A%2F%2Fdocs.microsoft.com%2Fzh-cn%2Fvisualstudio%2Fide%2Fcreate-portable-custom-editor-options%3Fview%3Dvs-2022)
-- 配置 eslint 和 pretter 统一代码风格
-- 配置 babel，处理新语法兼容型
-- 配置 git 提交的校验钩子
-- 规范化提交代码到 git 仓库
-- 设置开发和打包脚本
-- 添加单元测试jest，编写测试示例
-- 完善 package.json 必要字段
-- 配置合适的 npm script
-- 本地测试开发的 npm 包，使用yalc
-- 发布包到 npm
+<p align="center">
+<img src="../public/logo.png" style="width:200px;" />
+</p>
+
+<h1 align="center">Vivace-Tool</h1>
+
+<p align="center">开源、模块化、高性能的 JavaScript 实用工具库</p>
+
+## 安装
+
+**1. 浏览器环境**
+
+```js
+<script src="vivace-tool.umd.min.js"></script>
+const { sum } = vivaceTool
+```
+
+使用方式：
+
+```js
+<script>
+  let { sum } = vivaceTool;
+  alert(sum(1, 2))
+</script>
+```
+
+**2. npm**
+
+```shell
+npm install --save vivace-tool
+```
+使用方式：
+
+```js
+import { sum } from 'vivacedemo'
+alert(sum(1, 2))
+```
+
+
+**3. node.js**
+
+```shell
+npm install --save vivace-tool
+```
+
+使用方式：
+
+```js
+var { sumn } = require('vivacedemo');
+alert(sum(1, 2))
+```
+
+## 开源贡献
+
+[视频讲解]()
+
+[提交PR说明](https://www.yuque.com/xiumubai/fe/ufg8ff)
