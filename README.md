@@ -34,7 +34,7 @@ npm install --save vivace-tool
 使用方式：
 
 ```js
-import { sum } from 'vivacedemo'
+import { sum } from 'vivace-tool'
 alert(sum(1, 2))
 ```
 
