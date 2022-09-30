@@ -1,6 +1,6 @@
 {
   "name": "vivace-tool",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "npm包规范示例",
   "main": "dist/vivaceTool.umd.min.js",
   "module": "dist/vivaceTool.esm.js",
