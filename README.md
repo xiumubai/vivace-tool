@@ -54,6 +54,8 @@ alert(sum(1, 2))
 
 ## 开源贡献
 
-[视频讲解]()
+[视频讲解](https://www.bilibili.com/video/BV1Je4y1H7pq/?vd_source=2337c86c09920354e302668fe4c054b7)
 
 [提交PR说明](https://www.yuque.com/xiumubai/fe/ufg8ff)
+
+[从0搭建上手文档](https://www.yuque.com/xiumubai/fe/lrnuv3)
