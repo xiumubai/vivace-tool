@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-<img src="../public/logo.png" style="width:200px;" />
+<img src="/logo.png" style="width:200px;" />
 </p>
 
 <h1 align="center">Vivace-Tool</h1>
