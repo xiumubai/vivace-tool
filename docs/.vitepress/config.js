@@ -2,7 +2,7 @@
  * @Author: 朽木白
  * @Date: 2022-09-03 01:09:44
  * @LastEditors: 1547702880@@qq.com
- * @LastEditTime: 2022-09-30 19:08:17
+ * @LastEditTime: 2022-10-05 15:31:24
  * @Description:
  */
 
@@ -38,28 +38,64 @@ module.exports = {
     sidebar: {
       '/': [
         {
-          text: '函数集合',
+          text: 'Util',
+          collapsible: true,
           items: [
-            { text: "sum", link: '/utils/sum' },
-            { text: "uniqueArr", link: '/utils/uniqueArr' },
             { text: "getParameters", link: '/utils/getParameters' },
-            { text: "isEmpty", link: '/utils/isEmpty' },
-            { text: "reverse", link: '/utils/reverse' },
             { text: "randomHexColor", link: '/utils/randomHexColor' },
             { text: "isTabActive", link: '/utils/isTabActive' },
             { text: "elementIsInFocus", link: '/utils/elementIsInFocus' },
             { text: "judgeDeviceType", link: '/utils/judgeDeviceType' },
             { text: "copyText", link: '/utils/copyText' },
             { text: "getSelectedText", link: '/utils/getSelectedText' },
-            { text: "isWeekday", link: '/utils/isWeekday' },
+            { text: "rgbToHex", link: '/utils/rgbToHex' },
+          ]
+        },
+        {
+          text: 'Type',
+          collapsible: true,
+          items: [
+            { text: "getTypeOf", link: '/utils/getTypeOf' },
+            { text: "isEmpty", link: '/utils/isEmpty' },
+            { text: "isNumber", link: '/utils/isNumber' },
+            { text: "isString", link: '/utils/isString' },
+            { text: "isObject", link: '/utils/isObject' },
+            { text: "isNull", link: '/utils/isNull' },
+            { text: "isArray", link: '/utils/isArray' },
+            { text: "isUndefined", link: '/utils/isUndefined' },
+            { text: "isTrue", link: '/utils/isTrue' },
+          ]
+        },
+        {
+          text: 'String',
+          items: [
+            { text: "reverse", link: '/utils/reverse' },
+          ]
+        },
+        {
+          text: 'Number',
+          items: [
+            { text: "sum", link: '/utils/sum' },
+
             { text: "fahrenheitToCelsius", link: '/utils/fahrenheitToCelsius' },
             { text: "celsiusToFahrenheit", link: '/utils/celsiusToFahrenheit' },
-            { text: "dayDiff", link: '/utils/dayDiff' },
-            { text: "rgbToHex", link: '/utils/rgbToHex' },
             { text: "average", link: '/utils/average' },
-            { text: "trueTypeOf", link: '/utils/trueTypeOf' },
           ]
-        }
+        },
+        {
+          text: 'Array',
+          items: [
+            { text: "uniqueArr", link: '/utils/uniqueArr' },
+          ]
+        },
+        {
+          text: 'Date',
+          items: [
+            { text: "isWeekday", link: '/utils/isWeekday' },
+            { text: "dayDiff", link: '/utils/dayDiff' },
+          ]
+        },
+
       ]
     },
   },
