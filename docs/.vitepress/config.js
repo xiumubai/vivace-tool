@@ -1,8 +1,8 @@
 /*
  * @Author: 朽木白
  * @Date: 2022-09-03 01:09:44
- * @LastEditors: 1547702880@@qq.com
- * @LastEditTime: 2022-10-05 15:31:24
+ * @LastEditors: Songnian Chen
+ * @LastEditTime: 2023-01-05 16:37:07
  * @Description:
  */
 
@@ -49,6 +49,7 @@ module.exports = {
             { text: "copyText", link: '/utils/copyText' },
             { text: "getSelectedText", link: '/utils/getSelectedText' },
             { text: "rgbToHex", link: '/utils/rgbToHex' },
+            { text: "toCamel", link: '/utils/toCamel' },
           ]
         },
         {
