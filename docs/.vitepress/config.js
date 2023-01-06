@@ -2,7 +2,7 @@
  * @Author: 朽木白
  * @Date: 2022-09-03 01:09:44
  * @LastEditors: Songnian Chen
- * @LastEditTime: 2023-01-05 16:37:07
+ * @LastEditTime: 2023-01-06 10:30:32
  * @Description:
  */
 
@@ -65,6 +65,7 @@ module.exports = {
             { text: "isArray", link: '/utils/isArray' },
             { text: "isUndefined", link: '/utils/isUndefined' },
             { text: "isTrue", link: '/utils/isTrue' },
+            { text: "isElement", link: '/utils/isElement' },
           ]
         },
         {
