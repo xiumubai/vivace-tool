@@ -59,3 +59,5 @@ alert(sum(1, 2))
 [提交PR说明](https://www.yuque.com/xiumubai/fe/ufg8ff)
 
 [从0搭建上手文档](https://www.yuque.com/xiumubai/fe/lrnuv3)
+
+注意：提交PR之前先合并main分支代码，解决冲突代码
