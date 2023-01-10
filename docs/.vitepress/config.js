@@ -2,7 +2,7 @@
  * @Author: 朽木白
  * @Date: 2022-09-03 01:09:44
  * @LastEditors: Songnian Chen
- * @LastEditTime: 2023-01-06 10:30:32
+ * @LastEditTime: 2023-01-09 10:28:25
  * @Description:
  */
 
@@ -50,6 +50,7 @@ module.exports = {
             { text: "getSelectedText", link: '/utils/getSelectedText' },
             { text: "rgbToHex", link: '/utils/rgbToHex' },
             { text: "toCamel", link: '/utils/toCamel' },
+            { text: "smoothScroll", link: '/utils/smoothScroll' },
           ]
         },
         {
