@@ -50,6 +50,7 @@ module.exports = {
             { text: "getSelectedText", link: '/utils/getSelectedText' },
             { text: "rgbToHex", link: '/utils/rgbToHex' },
             { text: "toCamel", link: '/utils/toCamel' },
+            { text: "smoothScroll", link: '/utils/smoothScroll' },
           ]
         },
         {

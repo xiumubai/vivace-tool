@@ -25,3 +25,4 @@ export { isTrue } from './isTrue'
 export { toCamel } from './toCamel'
 export { isElement } from './isElement'
 export { shuffle } from './shuffle'
+export { smoothScroll } from './smoothScroll
