@@ -2,7 +2,7 @@
  * @Author: 朽木白
  * @Date: 2022-09-03 01:09:44
  * @LastEditors: Songnian Chen
- * @LastEditTime: 2023-01-09 10:28:25
+ * @LastEditTime: 2023-01-10 16:07:07
  * @Description:
  */
 
@@ -89,6 +89,7 @@ module.exports = {
           text: 'Array',
           items: [
             { text: "uniqueArr", link: '/utils/uniqueArr' },
+            { text: "shuffle", link: '/utils/shuffle' },
           ]
         },
         {

@@ -24,4 +24,5 @@ export { isUndefined } from './isUndefined'
 export { isTrue } from './isTrue'
 export { toCamel } from './toCamel'
 export { isElement } from './isElement'
-export { smoothScroll } from './smoothScroll'
+export { shuffle } from './shuffle'
+export { smoothScroll } from './smoothScroll
